@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 336px;
+    min-height: 236px;
+    height: auto;
+    border: 2px solid #c4c4c4;
+    border-radius: 10px;
+    margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px; 
+}
+
+.yellow-area {
+    width: 100%;
+    height: 28px;
+    margin-top: 0;
+    background-color: #e5a52f;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.head-text {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+}
+
+.sort-btn {
+    margin-top: 25px;
+    position: relative;
+    left: 280px;
+}
+
+.sort-img {
+    width: 25px;
+    height: 15px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#input-task {
+    width: 286px;
+    height: 30px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding-right: 35px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 8px;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.task-list {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    padding-left: 55px;
+    padding-right: 35px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-text {
+    font-size: 15px;
+    color: black;
+}
+
+.task-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-icon {
+    display: none;
+}
+
+.action-btn:hover .default-icon,
+.sort-btn:hover .default-icon,
+.clear-btn:hover .default-icon {
+    display: none; 
+}
+
+.action-btn:hover .hover-icon,
+.sort-btn:hover .hover-icon,
+.clear-btn:hover .hover-icon {
+    display: block; 
+}
+
+.add-buttons {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 93px; 
+    width: 150px;
+    height: 42px;
+    background-color: #833ae0;
+    border-radius: 71px;
+}
+
+.plus-btn {
+    width: 42px;
+    height: 42px;
+    background-color: #9953f1;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.add-btn {
+    width: 108px;
+    background-color: #833ae0;
+    color: white;
+    font-size: 14px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 71px 71px 0;
+    padding-right: 21px;
+}
+
+.edit-input {
+    font-size: 14px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 2px 6px;
+    width: 130px;
+    color: black;
+}
+
+.default-icon,
+.hover-icon {
+    width: 20px;
+    height: 20px;
+}
